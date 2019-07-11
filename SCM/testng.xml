@@ -1,0 +1,9 @@
+<suite name="softwaretestingmaterial">
+<test name="testngTest">
+ <classes>
+ <class name="TestRunner.TestRunner" />
+ <class name="testCases.JiraApplicationLogin" />
+ <class name="testCases.UploadByCreate" />
+ </classes>
+ </test>
+</suite>

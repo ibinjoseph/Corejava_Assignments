@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="TestRunner.TestRunner">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- TestRunner.TestRunner -->
+      <class name="testCases.UploadByCreate">
+        <methods>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- testCases.UploadByCreate -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

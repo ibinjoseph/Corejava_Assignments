@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE RelativeLayout>
+<extentreports>
+  <configuration>
+    <theme>standard</theme>
+    <encoding>UTF-8</encoding>
+    <protocol>https</protocol>
+    <documentTitle>JPMC CIB Tool</documentTitle>
+    <reportName>JPMC CIB Tool Automation Report</reportName>
+    <dateFormat>dd-MM-yyyy</dateFormat>
+    <timeFormat>HH:mm:ss</timeFormat>
+    
+    <!-- custom javascript -->
+    <scripts>
+      <![CDATA[
+        $(document).ready(function() {
+        
+        });
+      ]]>
+    </scripts>
+    
+    <!-- custom styles -->
+    <styles>
+      <![CDATA[
+        
+      ]]>
+    </styles>
+  </configuration>
+</extentreports>
